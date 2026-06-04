@@ -1,12 +1,17 @@
 {
   "site": {
-    "title": "Workfind",
-    "subtitle": "",
-    "description": "",
+    "title": "作品集",
+    "subtitle": "项目总览",
+    "description": "点击项目卡片进入具体项目详情。",
     "owner": "",
     "role": "",
     "bio": "",
-    "all_tags": [],
+    "all_tags": [
+      "活动",
+      "大富翁",
+      "组队",
+      "3D美术"
+    ],
     "prototype_enabled": false,
     "labels": {
       "home_eyebrow": "Project Hub",
@@ -44,6 +49,8 @@
       "stat_detail_scenes": "原型场景"
     },
     "hero_image": null,
+    "categories": [],
+    "analytics": null,
     "theme": {
       "accent": "#7c5cff",
       "background": "#0b1020"
@@ -51,12 +58,17 @@
   },
   "projects": [
     {
-      "id": "workfind",
+      "id": "p2-monopoly-team",
       "category": null,
-      "title": "Workfind",
-      "subtitle": "",
-      "summary": "",
-      "tags": [],
+      "title": "节日大富翁组队活动",
+      "subtitle": "美术资源与交互设计",
+      "summary": "节日嘉年华主题大富翁，新增小队合作；含交互设计、3D 舞台资源、棋盘场景、玩法道具与动效演示。",
+      "tags": [
+        "活动",
+        "大富翁",
+        "组队",
+        "3D美术"
+      ],
       "labels": {
         "home_eyebrow": "Project Hub",
         "home_section_kicker": "Projects",
@@ -92,11 +104,344 @@
         "stat_detail_doc": "交互文档",
         "stat_detail_scenes": "原型场景"
       },
-      "cover": null,
-      "card_cover": null,
-      "interaction_doc": null,
-      "screens": [],
-      "videos": [],
+      "cover": {
+        "id": "stage-3d",
+        "relative_path": "stage-3d.jpg",
+        "title": "核心舞台 · 3D 资源",
+        "caption": "节日舞台主视觉：弧形 LED 大屏 + 彩色聚光灯阵 + 音响墙 + 旋转台阶。",
+        "section": "核心场景 / 3D 资源",
+        "tags": [],
+        "summary": "",
+        "notes": [
+          "卡通厚涂质感",
+          "作为棋盘中心的舞台道具"
+        ],
+        "states": [
+          "主视觉",
+          "成品渲染"
+        ],
+        "doc_refs": [],
+        "hover_title": "节日舞台 3D 模型",
+        "hover_description": "活动主场景的中心结构件。顶部一圈多彩聚光灯，中部弧形 LED 大屏与音响墙，底座为带灯带的圆形旋转舞台与双侧楼梯。",
+        "parent": null,
+        "src": "assets/p2-monopoly-team/stage-3d.jpg"
+      },
+      "card_cover": {
+        "id": "board-scene-1",
+        "relative_path": "board-scene-1.png",
+        "title": "p2 monopoly team card cover",
+        "src": "assets/p2-monopoly-team/board-scene-1.png",
+        "thumb": "assets/p2-monopoly-team/board-scene-1-thumb.jpg"
+      },
+      "interaction_doc": {
+        "id": "design-doc",
+        "relative_path": "design-doc.jpg",
+        "title": "交互设计文档",
+        "caption": "节日大富翁活动 · 增加小队合作",
+        "section": "",
+        "tags": [],
+        "summary": "完整的策划需求、表现需求与细节设计：从活动入口、棋盘玩法、组队协作到结算奖励的整体流程与页面关系。",
+        "notes": [
+          "策划需求",
+          "表现需求",
+          "细节设计"
+        ],
+        "states": [
+          "活动入口",
+          "棋盘玩法",
+          "小队合作",
+          "结算奖励"
+        ],
+        "doc_refs": [],
+        "hover_title": "",
+        "hover_description": "",
+        "parent": null,
+        "src": "assets/p2-monopoly-team/design-doc.jpg"
+      },
+      "screens": [
+        {
+          "id": "stage-3d",
+          "relative_path": "stage-3d.jpg",
+          "title": "核心舞台 · 3D 资源",
+          "caption": "节日舞台主视觉：弧形 LED 大屏 + 彩色聚光灯阵 + 音响墙 + 旋转台阶。",
+          "section": "核心场景 / 3D 资源",
+          "tags": [],
+          "summary": "",
+          "notes": [
+            "卡通厚涂质感",
+            "作为棋盘中心的舞台道具"
+          ],
+          "states": [
+            "主视觉",
+            "成品渲染"
+          ],
+          "doc_refs": [],
+          "hover_title": "节日舞台 3D 模型",
+          "hover_description": "活动主场景的中心结构件。顶部一圈多彩聚光灯，中部弧形 LED 大屏与音响墙，底座为带灯带的圆形旋转舞台与双侧楼梯。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/stage-3d.jpg"
+        },
+        {
+          "id": "stage-blueprint",
+          "relative_path": "stage-blueprint.png",
+          "title": "舞台结构设计蓝图",
+          "caption": "舞台正视 / 侧视 / 俯视的结构比例图（Elevation & Plan, 1:50）。",
+          "section": "核心场景 / 3D 资源",
+          "tags": [],
+          "summary": "",
+          "notes": [
+            "建模前的设计依据"
+          ],
+          "states": [
+            "概念",
+            "结构图"
+          ],
+          "doc_refs": [],
+          "hover_title": "结构蓝图",
+          "hover_description": "用于驱动 3D 建模的工程蓝图：标注了大屏、灯阵、音响与圆台的尺寸与比例关系。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/stage-blueprint.png"
+        },
+        {
+          "id": "speaker-modeling",
+          "relative_path": "speaker-modeling.png",
+          "title": "音响道具 · 建模拆件",
+          "caption": "音响道具从拆件到组装的建模过程展示。",
+          "section": "核心场景 / 3D 资源",
+          "tags": [],
+          "summary": "",
+          "notes": [
+            "美术资源制作过程"
+          ],
+          "states": [
+            "拆件",
+            "组装"
+          ],
+          "doc_refs": [],
+          "hover_title": "音响建模过程",
+          "hover_description": "展示音响道具的零件拆解与逐步组装，体现资源的工序与可复用结构。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/speaker-modeling.png"
+        },
+        {
+          "id": "board-scene-1",
+          "relative_path": "board-scene-1.png",
+          "title": "节日棋盘场景 · 嘉年华广场",
+          "caption": "棋盘背景场景之一：嘉年华广场与节日舞台。",
+          "section": "节日棋盘场景",
+          "tags": [],
+          "summary": "",
+          "notes": [
+            "共 5 套节日场景，对应不同进度阶段"
+          ],
+          "states": [
+            "场景背景"
+          ],
+          "doc_refs": [],
+          "hover_title": "棋盘场景背景",
+          "hover_description": "大富翁棋盘所处的节日场景背景，营造嘉年华氛围（彩旗、帐篷摊位、节日建筑群）。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/board-scene-1.png"
+        },
+        {
+          "id": "board-scene-2",
+          "relative_path": "board-scene-2.png",
+          "title": "节日棋盘场景 · 阶段 2",
+          "caption": "棋盘背景场景变体（阶段 2）。",
+          "section": "节日棋盘场景",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "场景背景"
+          ],
+          "doc_refs": [],
+          "hover_title": "棋盘场景背景",
+          "hover_description": "随活动进度切换的节日场景背景之一。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/board-scene-2.png"
+        },
+        {
+          "id": "board-scene-3",
+          "relative_path": "board-scene-3.png",
+          "title": "节日棋盘场景 · 阶段 3",
+          "caption": "棋盘背景场景变体（阶段 3）。",
+          "section": "节日棋盘场景",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "场景背景"
+          ],
+          "doc_refs": [],
+          "hover_title": "棋盘场景背景",
+          "hover_description": "随活动进度切换的节日场景背景之一。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/board-scene-3.png"
+        },
+        {
+          "id": "board-scene-4",
+          "relative_path": "board-scene-4.png",
+          "title": "节日棋盘场景 · 阶段 4",
+          "caption": "棋盘背景场景变体（阶段 4）。",
+          "section": "节日棋盘场景",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "场景背景"
+          ],
+          "doc_refs": [],
+          "hover_title": "棋盘场景背景",
+          "hover_description": "随活动进度切换的节日场景背景之一。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/board-scene-4.png"
+        },
+        {
+          "id": "wheel",
+          "relative_path": "wheel.png",
+          "title": "大转盘",
+          "caption": "决定前进步数的节日大转盘道具。",
+          "section": "玩法道具",
+          "tags": [],
+          "summary": "",
+          "notes": [
+            "核心玩法元件"
+          ],
+          "states": [
+            "道具"
+          ],
+          "doc_refs": [],
+          "hover_title": "转盘道具",
+          "hover_description": "玩家通过转盘获得行进点数，是大富翁推进的核心交互元件。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/wheel.png"
+        },
+        {
+          "id": "hammer",
+          "relative_path": "hammer.png",
+          "title": "砸宝锤 · 普通",
+          "caption": "互动砸击道具（普通版）。",
+          "section": "玩法道具",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "道具",
+            "普通"
+          ],
+          "doc_refs": [],
+          "hover_title": "砸宝锤",
+          "hover_description": "用于砸击 / 开奖的互动道具，普通材质版本。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/hammer.png"
+        },
+        {
+          "id": "hammer-gold",
+          "relative_path": "hammer-gold.png",
+          "title": "砸宝锤 · 黄金",
+          "caption": "互动砸击道具（黄金强化版）。",
+          "section": "玩法道具",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "道具",
+            "黄金"
+          ],
+          "doc_refs": [],
+          "hover_title": "黄金砸宝锤",
+          "hover_description": "砸宝锤的黄金强化版本，用于高价值奖励或特殊节点。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/hammer-gold.png"
+        },
+        {
+          "id": "energy-box",
+          "relative_path": "energy-box.png",
+          "title": "能量方块",
+          "caption": "带蓝色能量场的方块道具。",
+          "section": "玩法道具",
+          "tags": [],
+          "summary": "",
+          "notes": [
+            "呼应小队合作机制"
+          ],
+          "states": [
+            "道具"
+          ],
+          "doc_refs": [],
+          "hover_title": "能量方块道具",
+          "hover_description": "金属边框 + 蓝色能量核心的道具，用于小队合作 / 蓄能类机制的视觉表达。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/energy-box.png"
+        },
+        {
+          "id": "led-screen",
+          "relative_path": "led-screen.png",
+          "title": "舞台 LED 大屏",
+          "caption": "弧形 LED 大屏道具（可承载动态内容）。",
+          "section": "玩法道具",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "道具"
+          ],
+          "doc_refs": [],
+          "hover_title": "LED 大屏",
+          "hover_description": "舞台中部的弧形大屏，可播放节日动效 / 中奖信息等动态内容。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/led-screen.png"
+        },
+        {
+          "id": "led-fx",
+          "relative_path": "led-fx.png",
+          "title": "LED 大屏 · 爆闪动效",
+          "caption": "大屏上的红蓝爆闪点阵动效。",
+          "section": "玩法道具",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [
+            "动效"
+          ],
+          "doc_refs": [],
+          "hover_title": "大屏动效",
+          "hover_description": "LED 大屏的点阵爆闪效果，用于中奖 / 高潮时刻的氛围烘托。",
+          "parent": null,
+          "src": "assets/p2-monopoly-team/led-fx.png"
+        }
+      ],
+      "videos": [
+        {
+          "id": "demo-1",
+          "relative_path": "videos/demo-1.mp4",
+          "title": "道具动效演示 01",
+          "caption": "节日舞台 / 道具的动态效果展示。",
+          "section": "动效演示",
+          "duration": "0:05",
+          "mime": "video/mp4",
+          "poster": {
+            "relative_path": "videos/demo-1-poster.jpg",
+            "src": "assets/p2-monopoly-team/videos/demo-1-poster.jpg"
+          },
+          "src": "assets/p2-monopoly-team/videos/demo-1.mp4"
+        },
+        {
+          "id": "demo-2",
+          "relative_path": "videos/demo-2.mp4",
+          "title": "道具动效演示 02",
+          "caption": "道具的动态效果展示（变体）。",
+          "section": "动效演示",
+          "duration": "0:05",
+          "mime": "video/mp4",
+          "poster": {
+            "relative_path": "videos/demo-2-poster.jpg",
+            "src": "assets/p2-monopoly-team/videos/demo-2-poster.jpg"
+          },
+          "src": "assets/p2-monopoly-team/videos/demo-2.mp4"
+        }
+      ],
       "pdfs": [],
       "showcase": [],
       "display": {},
