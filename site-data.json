@@ -1,0 +1,231 @@
+{
+  "site": {
+    "title": "作品集",
+    "subtitle": "项目总览",
+    "description": "点击项目卡片进入具体项目详情。",
+    "owner": "",
+    "role": "",
+    "bio": "",
+    "all_tags": [
+      "活动",
+      "大富翁",
+      "组队",
+      "3D美术"
+    ],
+    "prototype_enabled": false,
+    "labels": {
+      "home_eyebrow": "Project Hub",
+      "home_section_kicker": "Projects",
+      "home_section_title": "项目总览",
+      "home_section_description": "点击任意项目卡片，进入具体项目内容查看交互文档、界面说明，以及按指令启用的动态交互原型。",
+      "back_to_home": "返回项目总览",
+      "project_detail_eyebrow": "Project Detail",
+      "interaction_doc_kicker": "Document",
+      "interaction_doc_title": "交互文档",
+      "interaction_doc_description": "先展示整张交互文档，用来承接整体流程和页面关系说明。",
+      "interaction_doc_empty": "当前项目还没有配置交互文档。",
+      "screens_kicker": "Screens",
+      "screens_title": "单独界面",
+      "screens_description": "鼠标移入界面图时，会显示该界面的状态描述、说明和交互文档整理出的备注。",
+      "screens_empty": "当前项目还没有配置界面列表。",
+      "prototype_kicker": "Prototype",
+      "prototype_title": "动态交互原型",
+      "prototype_disabled": "当前未启用原型模块。只有在明确要求生成可演示交互原型时，才会渲染这一段内容。",
+      "prototype_empty": "原型模块已启用，但当前项目尚未配置 prototype 场景数据。",
+      "prototype_description": "流程和热点说明来自交互文档整理后的原型配置。",
+      "hotspot_title": "热点说明",
+      "scene_list_title": "流程场景",
+      "steps_title": "步骤说明",
+      "doc_notes_title": "关键说明",
+      "doc_states_title": "流程节点",
+      "screen_states_title": "状态说明",
+      "screen_notes_title": "备注",
+      "screen_refs_title": "文档引用",
+      "stat_project_count": "项目数量",
+      "stat_screen_count": "界面数量",
+      "stat_prototype": "原型模块",
+      "stat_detail_screens": "界面数量",
+      "stat_detail_doc": "交互文档",
+      "stat_detail_scenes": "原型场景"
+    },
+    "hero_image": null,
+    "categories": [],
+    "analytics": null,
+    "theme": {
+      "accent": "#7c5cff",
+      "background": "#0b1020"
+    }
+  },
+  "projects": [
+    {
+      "id": "p2-monopoly-team",
+      "category": null,
+      "title": "节日大富翁组队活动",
+      "subtitle": "美术资源与交互设计",
+      "summary": "节日嘉年华主题大富翁，新增小队合作；含交互设计、3D 舞台资源、棋盘场景、玩法道具与动效演示。",
+      "tags": [
+        "活动",
+        "大富翁",
+        "组队",
+        "3D美术"
+      ],
+      "labels": {
+        "home_eyebrow": "Project Hub",
+        "home_section_kicker": "Projects",
+        "home_section_title": "项目总览",
+        "home_section_description": "点击任意项目卡片，进入具体项目内容查看交互文档、界面说明，以及按指令启用的动态交互原型。",
+        "back_to_home": "返回项目总览",
+        "project_detail_eyebrow": "Project Detail",
+        "interaction_doc_kicker": "Document",
+        "interaction_doc_title": "交互文档",
+        "interaction_doc_description": "先展示整张交互文档，用来承接整体流程和页面关系说明。",
+        "interaction_doc_empty": "当前项目还没有配置交互文档。",
+        "screens_kicker": "Screens",
+        "screens_title": "单独界面",
+        "screens_description": "鼠标移入界面图时，会显示该界面的状态描述、说明和交互文档整理出的备注。",
+        "screens_empty": "当前项目还没有配置界面列表。",
+        "prototype_kicker": "Prototype",
+        "prototype_title": "动态交互原型",
+        "prototype_disabled": "当前未启用原型模块。只有在明确要求生成可演示交互原型时，才会渲染这一段内容。",
+        "prototype_empty": "原型模块已启用，但当前项目尚未配置 prototype 场景数据。",
+        "prototype_description": "流程和热点说明来自交互文档整理后的原型配置。",
+        "hotspot_title": "热点说明",
+        "scene_list_title": "流程场景",
+        "steps_title": "步骤说明",
+        "doc_notes_title": "关键说明",
+        "doc_states_title": "流程节点",
+        "screen_states_title": "状态说明",
+        "screen_notes_title": "备注",
+        "screen_refs_title": "文档引用",
+        "stat_project_count": "项目数量",
+        "stat_screen_count": "界面数量",
+        "stat_prototype": "原型模块",
+        "stat_detail_screens": "界面数量",
+        "stat_detail_doc": "交互文档",
+        "stat_detail_scenes": "原型场景"
+      },
+      "cover": {
+        "id": "demo-1-poster",
+        "relative_path": "videos/demo-1-poster.jpg",
+        "title": "demo 1 poster",
+        "caption": "",
+        "section": "",
+        "tags": [],
+        "summary": "",
+        "notes": [],
+        "states": [],
+        "doc_refs": [],
+        "hover_title": "",
+        "hover_description": "",
+        "src": "assets/p2-monopoly-team/videos/demo-1-poster.jpg"
+      },
+      "card_cover": {
+        "id": "demo-1-poster",
+        "relative_path": "videos/demo-1-poster.jpg",
+        "title": "p2 monopoly team card cover",
+        "src": "assets/p2-monopoly-team/videos/demo-1-poster.jpg",
+        "thumb": "assets/p2-monopoly-team/demo-1-poster-thumb.jpg"
+      },
+      "interaction_doc": {
+        "id": "design-doc",
+        "relative_path": "design-doc.jpg",
+        "title": "交互设计文档",
+        "caption": "节日大富翁活动 · 增加小队合作",
+        "section": "",
+        "tags": [],
+        "summary": "完整的策划需求、表现需求与细节设计：从活动入口、棋盘玩法、组队协作到结算奖励的整体流程与页面关系。",
+        "notes": [
+          "策划需求",
+          "表现需求",
+          "细节设计"
+        ],
+        "states": [
+          "活动入口",
+          "棋盘玩法",
+          "小队合作",
+          "结算奖励"
+        ],
+        "doc_refs": [],
+        "hover_title": "",
+        "hover_description": "",
+        "parent": null,
+        "src": "assets/p2-monopoly-team/design-doc.jpg"
+      },
+      "screens": [
+        {
+          "id": "demo-1-poster",
+          "relative_path": "videos/demo-1-poster.jpg",
+          "title": "demo 1 poster",
+          "caption": "",
+          "section": "",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [],
+          "doc_refs": [],
+          "hover_title": "",
+          "hover_description": "",
+          "src": "assets/p2-monopoly-team/videos/demo-1-poster.jpg"
+        },
+        {
+          "id": "demo-2-poster",
+          "relative_path": "videos/demo-2-poster.jpg",
+          "title": "demo 2 poster",
+          "caption": "",
+          "section": "",
+          "tags": [],
+          "summary": "",
+          "notes": [],
+          "states": [],
+          "doc_refs": [],
+          "hover_title": "",
+          "hover_description": "",
+          "src": "assets/p2-monopoly-team/videos/demo-2-poster.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "id": "demo-1",
+          "relative_path": "videos/demo-1.mp4",
+          "title": "动效演示 01",
+          "caption": "活动道具 / 场景的动态效果展示。",
+          "section": "动效演示",
+          "duration": "0:05",
+          "mime": "video/mp4",
+          "poster": {
+            "relative_path": "videos/demo-1-poster.jpg",
+            "src": "assets/p2-monopoly-team/videos/demo-1-poster.jpg"
+          },
+          "src": "assets/p2-monopoly-team/videos/demo-1.mp4"
+        },
+        {
+          "id": "demo-2",
+          "relative_path": "videos/demo-2.mp4",
+          "title": "动效演示 02",
+          "caption": "活动道具 / 场景的动态效果展示（变体）。",
+          "section": "动效演示",
+          "duration": "0:05",
+          "mime": "video/mp4",
+          "poster": {
+            "relative_path": "videos/demo-2-poster.jpg",
+            "src": "assets/p2-monopoly-team/videos/demo-2-poster.jpg"
+          },
+          "src": "assets/p2-monopoly-team/videos/demo-2.mp4"
+        }
+      ],
+      "pdfs": [],
+      "showcase": [],
+      "display": {
+        "hide_sections": [
+          "screens"
+        ]
+      },
+      "flow": null,
+      "prototype": {
+        "enabled": false,
+        "intro": "",
+        "scenes": []
+      }
+    }
+  ]
+}
